@@ -1,0 +1,903 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About | Hardline Home Concepts — Interior Design & Architecture Journal</title>
+  <meta name="description" content="Hardline Home Concepts is an independent editorial publication exploring interior design, architecture, materials, and modern living. Learn about our mission, team, and editorial approach.">
+  <meta name="keywords" content="about hardline home concepts, interior design journal, architecture publication, design editorial, independent design magazine">
+  <meta name="author" content="Hardline Home Concepts Editorial">
+  <link rel="canonical" href="https://hardlinehomeconcepts.com/about.html">
+  <!-- Open Graph -->
+  <meta property="og:title" content="About | Hardline Home Concepts">
+  <meta property="og:description" content="Independent editorial publication for interior design and architecture. Meet the team and learn about our approach.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&h=630&fit=crop">
+  <meta property="og:url" content="https://hardlinehomeconcepts.com/about.html">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "AboutPage",
+    "name": "About Hardline Home Concepts",
+    "description": "Independent editorial publication for interior design and architecture.",
+    "url": "https://hardlinehomeconcepts.com/about.html",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Hardline Home Concepts"
+    }
+  }
+  </script>
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:opsz,wght@14..32,300..700&display=swap" rel="stylesheet">
+  <style>
+    /* ---------- RESET & BASE ---------- */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    :root {
+      --serif: 'DM Serif Display', Georgia, serif;
+      --sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      --bg: #fcfaf7;
+      --surface: #ffffff;
+      --ink: #1e1c1a;
+      --muted: #5f5a56;
+      --border: #e6e1db;
+      --accent: #b15c3a;
+      --accent-soft: #f5ede7;
+      --radius: 4px;
+      --shadow: 0 2px 12px rgba(0,0,0,0.03);
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: var(--sans);
+      background: var(--bg);
+      color: var(--ink);
+      line-height: 1.7;
+      font-weight: 350;
+      font-size: 1.05rem;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    img {
+      max-width: 100%;
+      display: block;
+      height: auto;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+      transition: color 0.15s ease;
+    }
+
+    a:hover {
+      color: var(--accent);
+    }
+
+    /* ---------- TYPOGRAPHY ---------- */
+    h1, h2, h3, h4 {
+      font-family: var(--serif);
+      font-weight: 400;
+      line-height: 1.2;
+      letter-spacing: -0.01em;
+    }
+
+    h1 { font-size: 2.8rem; }
+    h2 { font-size: 2rem; margin-bottom: 1.25rem; }
+    h3 { font-size: 1.4rem; margin-bottom: 0.5rem; }
+    h4 { font-size: 1.1rem; font-weight: 500; font-family: var(--sans); }
+
+    p {
+      margin-bottom: 1.25rem;
+      color: #2c2a28;
+    }
+
+    .meta {
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      font-weight: 400;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+    }
+
+    .meta .dot {
+      width: 3px;
+      height: 3px;
+      background: var(--muted);
+      border-radius: 50%;
+      display: inline-block;
+    }
+
+    .category-tag {
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      background: var(--accent-soft);
+      color: var(--accent);
+      padding: 0.2rem 0.7rem;
+      border-radius: 20px;
+      font-weight: 500;
+      display: inline-block;
+    }
+
+    .reading-time {
+      font-size: 0.8rem;
+      color: var(--muted);
+    }
+
+    /* ---------- LAYOUT ---------- */
+    .container {
+      max-width: 1240px;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+
+    .layout-grid {
+      display: grid;
+      grid-template-columns: 1fr 320px;
+      gap: 3.5rem;
+      align-items: start;
+    }
+
+    /* ---------- HEADER ---------- */
+    .site-header {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 1rem 0;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(8px);
+      background: rgba(255, 255, 255, 0.92);
+    }
+
+    .header-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      display: flex;
+      align-items: baseline;
+      gap: 0.4rem;
+    }
+
+    .logo-mark {
+      font-family: var(--serif);
+      font-size: 1.8rem;
+      font-weight: 400;
+      color: var(--ink);
+      letter-spacing: -0.02em;
+    }
+
+    .logo-mark span {
+      color: var(--accent);
+    }
+
+    .logo-tagline {
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--muted);
+      display: none;
+    }
+
+    .main-nav ul {
+      display: flex;
+      list-style: none;
+      gap: 1.8rem;
+      font-size: 0.85rem;
+      font-weight: 400;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
+    .main-nav a {
+      color: var(--muted);
+      padding-bottom: 0.2rem;
+      border-bottom: 1px solid transparent;
+    }
+
+    .main-nav a:hover,
+    .main-nav a.active {
+      color: var(--ink);
+      border-bottom-color: var(--accent);
+    }
+
+    .search-toggle {
+      background: none;
+      border: 1px solid var(--border);
+      border-radius: 30px;
+      padding: 0.4rem 1rem;
+      font-size: 0.8rem;
+      color: var(--muted);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      transition: all 0.15s;
+    }
+
+    .search-toggle:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+
+    .search-bar {
+      display: none;
+      padding: 0.75rem 0;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .search-bar.open {
+      display: block;
+    }
+
+    .search-bar input {
+      width: 100%;
+      padding: 0.8rem 1.2rem;
+      border: 1px solid var(--border);
+      border-radius: 30px;
+      font-size: 0.95rem;
+      font-family: var(--sans);
+      background: var(--surface);
+      outline: none;
+    }
+
+    .search-bar input:focus {
+      border-color: var(--accent);
+    }
+
+    /* ---------- ABOUT HERO ---------- */
+    .about-hero {
+      padding: 3rem 0 2rem;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 2.5rem;
+    }
+
+    .about-hero h1 {
+      font-size: 3rem;
+      max-width: 750px;
+      margin-bottom: 1rem;
+    }
+
+    .about-hero p {
+      max-width: 680px;
+      font-size: 1.15rem;
+      color: var(--muted);
+    }
+
+    /* ---------- MISSION & VALUES ---------- */
+    .mission-section {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 3rem;
+      margin-bottom: 3.5rem;
+      align-items: start;
+    }
+
+    .mission-text h2 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+    }
+
+    .mission-text p {
+      color: var(--muted);
+    }
+
+    .values-list {
+      list-style: none;
+      margin-top: 1.5rem;
+    }
+
+    .values-list li {
+      display: flex;
+      gap: 1rem;
+      padding: 1rem 0;
+      border-bottom: 1px solid var(--border);
+      align-items: flex-start;
+    }
+
+    .values-list li:last-child {
+      border-bottom: none;
+    }
+
+    .values-list .value-icon {
+      font-family: var(--serif);
+      font-size: 1.3rem;
+      color: var(--accent);
+      flex-shrink: 0;
+      width: 2rem;
+    }
+
+    .values-list .value-content h4 {
+      font-size: 1rem;
+      margin-bottom: 0.2rem;
+      font-weight: 600;
+    }
+
+    .values-list .value-content p {
+      font-size: 0.9rem;
+      color: var(--muted);
+      margin-bottom: 0;
+    }
+
+    .mission-image img {
+      width: 100%;
+      height: 380px;
+      object-fit: cover;
+      border-radius: var(--radius);
+      border: 1px solid var(--border);
+    }
+
+    /* ---------- TEAM ---------- */
+    .team-section {
+      margin: 3.5rem 0;
+      padding-top: 2rem;
+      border-top: 1px solid var(--border);
+    }
+
+    .team-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+
+    .team-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.75rem;
+      text-align: center;
+    }
+
+    .team-card img {
+      width: 96px;
+      height: 96px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin: 0 auto 1rem;
+      border: 2px solid var(--border);
+    }
+
+    .team-card h4 {
+      font-size: 1.1rem;
+      margin-bottom: 0.2rem;
+    }
+
+    .team-card .role {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--accent);
+      font-weight: 500;
+      margin-bottom: 0.75rem;
+      display: block;
+    }
+
+    .team-card p {
+      font-size: 0.9rem;
+      color: var(--muted);
+      margin-bottom: 0;
+    }
+
+    /* ---------- EDITORIAL PROCESS ---------- */
+    .process-section {
+      margin: 3.5rem 0;
+      padding: 2.5rem 0;
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .process-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+
+    .process-step {
+      position: relative;
+    }
+
+    .process-step .step-num {
+      font-family: var(--serif);
+      font-size: 2.5rem;
+      color: var(--border);
+      line-height: 1;
+      margin-bottom: 0.5rem;
+    }
+
+    .process-step h4 {
+      font-size: 1rem;
+      margin-bottom: 0.5rem;
+      font-weight: 600;
+    }
+
+    .process-step p {
+      font-size: 0.9rem;
+      color: var(--muted);
+      margin-bottom: 0;
+    }
+
+    /* ---------- INFO BLOCKS (reused) ---------- */
+    .info-sections {
+      margin: 4rem 0;
+    }
+
+    .info-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2.5rem;
+    }
+
+    .info-block {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 2rem;
+    }
+
+    .info-block h2 {
+      font-size: 1.5rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .info-block p {
+      font-size: 0.95rem;
+      color: var(--muted);
+    }
+
+    .info-block ul {
+      list-style: none;
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+
+    .info-block ul li {
+      padding: 0.3rem 0;
+    }
+
+    .info-block ul li a {
+      color: var(--accent);
+    }
+
+    /* ---------- NEWSLETTER ---------- */
+    .newsletter-section {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 3rem;
+      margin: 3rem 0;
+      text-align: center;
+    }
+
+    .newsletter-section h2 {
+      font-size: 2rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .newsletter-section p {
+      max-width: 480px;
+      margin: 0 auto 1.5rem;
+      color: var(--muted);
+    }
+
+    .newsletter-form {
+      display: flex;
+      max-width: 440px;
+      margin: 0 auto;
+      gap: 0.75rem;
+    }
+
+    .newsletter-form input {
+      flex: 1;
+      padding: 0.8rem 1.2rem;
+      border: 1px solid var(--border);
+      border-radius: 30px;
+      font-family: var(--sans);
+      font-size: 0.9rem;
+      outline: none;
+    }
+
+    .newsletter-form input:focus {
+      border-color: var(--accent);
+    }
+
+    .newsletter-form button {
+      background: var(--ink);
+      color: #fff;
+      border: none;
+      padding: 0.8rem 1.8rem;
+      border-radius: 30px;
+      font-family: var(--sans);
+      font-size: 0.85rem;
+      cursor: pointer;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      transition: background 0.2s;
+      white-space: nowrap;
+    }
+
+    .newsletter-form button:hover {
+      background: var(--accent);
+    }
+
+    /* ---------- FOOTER ---------- */
+    .site-footer {
+      background: var(--surface);
+      border-top: 1px solid var(--border);
+      padding: 3rem 0 1.5rem;
+      margin-top: 3rem;
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1fr;
+      gap: 2.5rem;
+      margin-bottom: 2.5rem;
+    }
+
+    .footer-brand .logo-mark {
+      font-size: 1.4rem;
+      display: block;
+      margin-bottom: 0.75rem;
+    }
+
+    .footer-brand p {
+      font-size: 0.85rem;
+      color: var(--muted);
+      max-width: 280px;
+    }
+
+    .footer-col h4 {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--muted);
+      margin-bottom: 1rem;
+    }
+
+    .footer-col ul {
+      list-style: none;
+    }
+
+    .footer-col ul li {
+      padding: 0.25rem 0;
+    }
+
+    .footer-col ul li a {
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+
+    .footer-col ul li a:hover {
+      color: var(--accent);
+    }
+
+    .footer-bottom {
+      border-top: 1px solid var(--border);
+      padding-top: 1.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.75rem;
+      color: var(--muted);
+    }
+
+    /* ---------- RESPONSIVE ---------- */
+    @media (max-width: 1024px) {
+      .layout-grid {
+        grid-template-columns: 1fr;
+      }
+      .mission-section {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+      }
+      .team-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+      .process-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+      .footer-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+      .info-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 768px) {
+      body { font-size: 1rem; }
+      h1 { font-size: 2.2rem; }
+      h2 { font-size: 1.6rem; }
+      .about-hero h1 { font-size: 2.2rem; }
+      .main-nav ul { display: none; }
+      .team-grid { grid-template-columns: 1fr; }
+      .process-grid { grid-template-columns: 1fr; }
+      .footer-grid { grid-template-columns: 1fr; }
+      .newsletter-form { flex-direction: column; }
+      .newsletter-section { padding: 2rem 1.5rem; }
+      .footer-bottom { flex-direction: column; gap: 0.75rem; text-align: center; }
+      .mission-image img { height: 280px; }
+    }
+
+    @media (max-width: 480px) {
+      .container { padding: 0 1rem; }
+      .info-block { padding: 1.5rem; }
+    }
+
+    /* Utility */
+    .hidden { display: none !important; }
+    .mt-2 { margin-top: 1.5rem; }
+    .mb-2 { margin-bottom: 1.5rem; }
+  </style>
+</head>
+<body>
+
+  <!-- ========== HEADER ========== -->
+  <header class="site-header" id="top">
+    <div class="container">
+      <div class="header-inner">
+        <a href="index.html" class="logo" aria-label="Hardline Home Concepts home">
+          <span class="logo-mark">Hardline<span>.</span></span>
+          <span class="logo-tagline">Home Concepts</span>
+        </a>
+        <nav class="main-nav" aria-label="Main navigation">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html" class="active">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="terms.html">Terms Of Privacy</a></li>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="cookies.html">Cookies Policy</a></li>
+            <li><a href="disclaimer.html">Disclaimer</a></li>
+            <li><a href="categories.html">Categories</a></li>
+          </ul>
+        </nav>
+        <button class="search-toggle" id="searchToggle" aria-label="Open search">
+          <span>⌕</span> Search
+        </button>
+      </div>
+      <div class="search-bar" id="searchBar">
+        <input type="text" id="searchInput" placeholder="Search articles, topics, guides…" aria-label="Search articles">
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <!-- ========== ABOUT HERO ========== -->
+    <section class="about-hero">
+      <h1>We write for people who care about the spaces they inhabit.</h1>
+      <p>Hardline Home Concepts is an independent editorial publication exploring interior design, architecture, materials, and modern living. Founded in 2019, we publish considered articles, practical guides, and critical perspectives — no fluff, no hidden agendas.</p>
+    </section>
+
+    <!-- ========== MISSION & VALUES ========== -->
+    <section class="mission-section">
+      <div class="mission-text">
+        <h2>Our mission</h2>
+        <p>To make design knowledge accessible, rigorous, and genuinely useful. We believe that good design is not about trends or luxury — it is about how spaces shape daily life. Every article we publish is researched, edited, and written by design professionals who understand both theory and practice.</p>
+        <p>We are not affiliated with any product manufacturer, design firm, or media conglomerate. Our only allegiance is to our readers and to the integrity of the work we share.</p>
+
+        <ul class="values-list">
+          <li>
+            <span class="value-icon">◈</span>
+            <div class="value-content">
+              <h4>Independence</h4>
+              <p>No sponsored content, no affiliate bias. We write what we believe is useful and true.</p>
+            </div>
+          </li>
+          <li>
+            <span class="value-icon">◈</span>
+            <div class="value-content">
+              <h4>Depth over speed</h4>
+              <p>We take time to research, interview, and refine. A Hardline article is meant to be read, not skimmed.</p>
+            </div>
+          </li>
+          <li>
+            <span class="value-icon">◈</span>
+            <div class="value-content">
+              <h4>Practical knowledge</h4>
+              <p>Every guide includes actionable insight — materials, dimensions, trade-offs, and real-world constraints.</p>
+            </div>
+          </li>
+          <li>
+            <span class="value-icon">◈</span>
+            <div class="value-content">
+              <h4>Design for life</h4>
+              <p>We prioritise longevity, comfort, and sustainability over fleeting trends.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="mission-image">
+        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&h=600&fit=crop" alt="Editorial desk with architectural drawings and material samples">
+      </div>
+    </section>
+
+    <!-- ========== TEAM ========== -->
+    <section class="team-section" id="team">
+      <span class="section-label" style="font-size:0.7rem;text-transform:uppercase;letter-spacing:0.12em;color:var(--accent);font-weight:500;display:block;margin-bottom:0.5rem;">The people behind the pages</span>
+      <h2>Editorial team</h2>
+      <div class="team-grid">
+        <div class="team-card">
+          <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop&crop=face" alt="Portrait of Elara Voss, Editor-in-Chief">
+          <h4>Elara Voss</h4>
+          <span class="role">Editor-in-Chief</span>
+          <p>Architect and writer. Formerly at Studio Norm and Domus. Elara founded Hardline to bridge the gap between design practice and public understanding.</p>
+        </div>
+        <div class="team-card">
+          <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face" alt="Portrait of Marcus Chen, Senior Editor">
+          <h4>Marcus Chen</h4>
+          <span class="role">Senior Editor</span>
+          <p>Materials specialist and educator. Marcus leads our technical guides and material studies, drawing on a decade in sustainable construction.</p>
+        </div>
+        <div class="team-card">
+          <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face" alt="Portrait of Sofia Lindqvist, Features Writer">
+          <h4>Sofia Lindqvist</h4>
+          <span class="role">Features Writer</span>
+          <p>Interior designer and journalist. Sofia covers residential design, lighting, and the psychology of space for our long-form features.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== EDITORIAL PROCESS ========== -->
+    <section class="process-section" id="process">
+      <span class="section-label" style="font-size:0.7rem;text-transform:uppercase;letter-spacing:0.12em;color:var(--accent);font-weight:500;display:block;margin-bottom:0.5rem;">How we work</span>
+      <h2>Our editorial process</h2>
+      <div class="process-grid">
+        <div class="process-step">
+          <div class="step-num">01</div>
+          <h4>Research &amp; sourcing</h4>
+          <p>We begin with primary sources — architects, builders, material scientists, and site visits. Every claim is verified.</p>
+        </div>
+        <div class="process-step">
+          <div class="step-num">02</div>
+          <h4>Writing &amp; editing</h4>
+          <p>Articles are drafted by subject-matter writers, then edited for clarity, accuracy, and structure. Nothing is published without two editorial passes.</p>
+        </div>
+        <div class="process-step">
+          <div class="step-num">03</div>
+          <h4>Fact-check &amp; review</h4>
+          <p>Technical content is reviewed by an independent expert. We correct errors transparently and date all updates.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== INFO BLOCKS (Contact, Privacy, Terms) ========== -->
+    <section class="info-sections" id="contact">
+      <div class="info-grid">
+        <div class="info-block">
+          <h2>Contact &amp; submissions</h2>
+          <p>For editorial inquiries, story tips, or feedback, reach us at:</p>
+          <ul>
+            <li><a href="mailto:editorial@hardlinehomeconcepts.com">editorial@hardlinehomeconcepts.com</a></li>
+            <li><a href="mailto:partnerships@hardlinehomeconcepts.com">partnerships@hardlinehomeconcepts.com</a></li>
+          </ul>
+          <p style="margin-top:0.75rem;">We read every message, though response times may vary. We do not accept unsolicited guest posts at this time.</p>
+        </div>
+        <div class="info-block">
+          <h2>Privacy &amp; terms</h2>
+          <p>We respect your privacy. This site does not use third-party tracking cookies. Newsletter subscriptions are stored securely and never shared. You may request deletion of your data at any time.</p>
+          <p>All content is provided for informational purposes. By using this site, you agree to our terms.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== NEWSLETTER ========== -->
+    <section class="newsletter-section" id="newsletter">
+      <h2>Stay in the loop.</h2>
+      <p>Join our weekly newsletter for new articles, design guides, and material studies — no spam, just considered content.</p>
+      <form class="newsletter-form" id="newsletterForm" onsubmit="event.preventDefault(); alert('Thank you for subscribing to Hardline Home Concepts.');">
+        <input type="email" placeholder="Your email address" required aria-label="Email address">
+        <button type="submit">Subscribe</button>
+      </form>
+    </section>
+
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <span class="logo-mark">Hardline<span>.</span></span>
+          <p>An independent journal for interior design and architecture. Published since 2019.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Sections</h4>
+          <ul>
+            <li><a href="index.html#interiors">Interiors</a></li>
+            <li><a href="index.html#architecture">Architecture</a></li>
+            <li><a href="index.html#materials">Materials</a></li>
+            <li><a href="index.html#lighting">Lighting</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Information</h4>
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="index.html#faq">FAQ</a></li>
+            <li><a href="privacy.html">Privacy</a></li>
+            <li><a href="terms.html">Terms</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Connect</h4>
+          <ul>
+            <li><a href="#newsletter">Newsletter</a></li>
+            <li><a href="mailto:editorial@hardlinehomeconcepts.com">Email</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2025 Hardline Home Concepts. All rights reserved.</span>
+        <span>Made with care for thoughtful homes.</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========== JAVASCRIPT ========== -->
+  <script>
+    // Search toggle
+    const searchToggle = document.getElementById('searchToggle');
+    const searchBar = document.getElementById('searchBar');
+    const searchInput = document.getElementById('searchInput');
+
+    searchToggle.addEventListener('click', () => {
+      searchBar.classList.toggle('open');
+      if (searchBar.classList.contains('open')) {
+        searchInput.focus();
+      }
+    });
+
+    // Simple search filtering (for demo — filters info blocks on about page)
+    searchInput.addEventListener('input', function() {
+      const query = this.value.toLowerCase().trim();
+      const blocks = document.querySelectorAll('.info-block, .team-card, .process-step');
+
+      if (query.length < 2) {
+        blocks.forEach(b => b.classList.remove('hidden'));
+        return;
+      }
+
+      blocks.forEach(block => {
+        const text = block.innerText.toLowerCase();
+        if (text.includes(query)) {
+          block.classList.remove('hidden');
+        } else {
+          block.classList.add('hidden');
+        }
+      });
+    });
+
+    // Category nav active state (preserve about active)
+    document.querySelectorAll('.main-nav a').forEach(link => {
+      link.addEventListener('click', function() {
+        document.querySelectorAll('.main-nav a').forEach(l => l.classList.remove('active'));
+        this.classList.add('active');
+      });
+    });
+  </script>
+
+</body>
+</html>
